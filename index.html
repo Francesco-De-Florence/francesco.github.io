@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Francesco De Florence – EEE Researcher at Islamic University, Bangladesh. Deep Learning, 5G, WiFi Sensing, Signal Processing." />
+  <meta name="keywords" content="Francesco De Florence, EEE, Islamic University, Deep Learning, 5G, OFDM, WiFi Sensing, Research, Bangladesh" />
+  <meta name="author" content="Francesco De Florence" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Francesco De Florence | Academic Portfolio" />
+  <meta property="og:description" content="Researcher in Deep Learning, 5G Communications & WiFi Sensing at Islamic University, Bangladesh." />
+  <meta property="og:type" content="website" />
+  <title>Francesco De Florence | Academic Portfolio</title>
+
+  <!-- Google Fonts: Cormorant Garamond (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-mode">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">F<span>.</span>De Florence</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" aria-label="Introduction">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content reveal">
+      <p class="hero-tag">Research Scholar · EEE · Islamic University, Bangladesh</p>
+      <h1>Francesco<br /><em>De Florence</em></h1>
+      <p class="hero-bio">
+        Deep Learning researcher specializing in 5G OFDM signal processing, WiFi-based human activity
+        recognition, and intelligent wireless communication systems. Currently pursuing M.Sc. (Engg.)
+        with a focus on real-time physical violence detection via WiFi CSI signals.
+      </p>
+      <div class="hero-cta">
+        <!-- UPDATE: Replace href with actual hosted CV path -->
+        <a href="assets/cv.pdf" class="btn btn-primary" download aria-label="Download CV PDF">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-envelope"></i> Get in Touch
+        </a>
+      </div>
+      <div class="hero-social" aria-label="Social links">
+        <!-- UPDATE: Replace # with actual profile URLs -->
+        <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://researchgate.net" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>
+        <a href="https://orcid.org" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual reveal-right">
+      <!-- Profile image placeholder – replace assets/profile.jpg with your photo -->
+      <div class="profile-ring">
+        <img src="assets/profile.jpg" alt="Portrait of Francesco De Florence" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="profile-fallback"><i class="fas fa-user-graduate"></i></div>
+      </div>
+      <div class="stat-chips">
+        <div class="chip"><span class="chip-num">2</span><span class="chip-label">IEEE Papers</span></div>
+        <div class="chip"><span class="chip-num">3.59</span><span class="chip-label">CGPA</span></div>
+        <div class="chip"><span class="chip-num">10+</span><span class="chip-label">Projects</span></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-label reveal">About Me</div>
+        <h2 id="about-heading" class="section-title reveal">Bridging Deep Learning<br />& Wireless Communication</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am <strong>Francesco De Florence</strong>, an electrical and electronic engineering researcher based at
+              Islamic University, Kushtia, Bangladesh. My academic journey began in 2020 and has led me
+              through a Bachelor's degree (CGPA 3.59/4.00) into an ongoing Master of Science program,
+              where I work at the intersection of deep learning and modern wireless communication systems.
+            </p>
+            <p>
+              As a Research Assistant in the <strong>AI and Machine Learning Lab</strong> under Prof. Md. Humayun Kabir,
+              I investigate challenging problems in 5G OFDM systems, channel estimation, WiFi-based sensing,
+              and network security. My bachelor's thesis introduced a Conv1D–LSTM Autoencoder for PAPR
+              mitigation in 5G OFDM, and my ongoing M.Sc. research targets real-time violence detection
+              using WiFi Channel State Information (CSI) signals.
+            </p>
+            <p>
+              Beyond research, I am a passionate educator, a multi-level Physics Olympiad participant,
+              a national award-winning flute player, and an active student leader. I aim to contribute to
+              intelligent, next-generation communication infrastructure through rigorous applied research.
+            </p>
+          </div>
+          <div class="about-highlights reveal-right">
+            <div class="highlight-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Location</strong>
+                <p>Bagatipara-6420, Natore, Bangladesh</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <i class="fas fa-flask"></i>
+              <div>
+                <strong>Research Lab</strong>
+                <p>AI & Machine Learning Lab, IU EEE</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <div>
+                <strong>Supervisor</strong>
+                <p>Prof. Md. Humayun Kabir, Ph.D.</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <i class="fas fa-language"></i>
+              <div>
+                <strong>Languages</strong>
+                <p>Bengali (Native) · English (Academic)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section section-alt" aria-labelledby="edu-heading">
+      <div class="container">
+        <div class="section-label reveal">Education</div>
+        <h2 id="edu-heading" class="section-title reveal">Academic Credentials</h2>
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Aug 2025 – Ongoing</div>
+            <div class="timeline-card">
+              <div class="timeline-badge">M.Sc. (Engg.) · In Progress</div>
+              <h3>Master of Science in Electrical and Electronic Engineering</h3>
+              <p class="timeline-inst"><i class="fas fa-university"></i> Islamic University, Kushtia-7003, Bangladesh</p>
+              <p class="timeline-meta">Total Credit Hours: 57 &nbsp;|&nbsp; Medium: English</p>
+              <div class="timeline-details">
+                <p><strong>Major Courses:</strong> Mechatronics System Engineering, Biomedical Engineering, Power Semiconductor Circuits and Devices, Wireless and Broadband Communication Networks, Advanced Digital Signal Processing, Artificial Intelligence and Neural Networks, Machine Learning with Python.</p>
+                <p><strong>Thesis:</strong> <em>"WiFi-Sensing: Deep Learning Based Real Time Physical Violence Detection Using WiFi CSI Signals."</em></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jan 2020 – Jul 2025</div>
+            <div class="timeline-card">
+              <div class="timeline-badge">B.Sc. (Engg.) · CGPA 3.59 / 4.00</div>
+              <h3>Bachelor of Science in Electrical and Electronic Engineering</h3>
+              <p class="timeline-inst"><i class="fas fa-university"></i> Islamic University, Kushtia-7003, Bangladesh</p>
+              <p class="timeline-meta">Total Credit Hours: 160 &nbsp;|&nbsp; Medium: English</p>
+              <div class="timeline-details">
+                <p><strong>Major Courses:</strong> Electrical Engineering Materials, Electronics, Digital Electronics, Mechanical Engineering, Control System Engineering, Microprocessor and Micro-controllers, Optical Fiber Communication, Telecommunication Engineering.</p>
+                <p><strong>Thesis:</strong> <em>"Deep Learning–Driven PAPR Mitigation in 5G OFDM Systems Using a Conv1D–LSTM Autoencoder Framework"</em>
+                  <a href="https://doi.org/10.13140/RG.2.2.28805.41440" target="_blank" rel="noopener" class="doi-link">DOI: 10.13140/RG.2.2.28805.41440 <i class="fas fa-external-link-alt"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESEARCH INTERESTS ===== -->
+    <section id="research" class="section" aria-labelledby="research-heading">
+      <div class="container">
+        <div class="section-label reveal">Focus Areas</div>
+        <h2 id="research-heading" class="section-title reveal">Research Interests</h2>
+        <div class="research-grid">
+          <div class="research-card reveal">
+            <div class="rc-icon"><i class="fas fa-broadcast-tower"></i></div>
+            <h3>5G / 6G Communications</h3>
+            <p>OFDM systems, PAPR reduction, channel estimation, massive MIMO beamforming, and next-generation wireless network design.</p>
+          </div>
+          <div class="research-card reveal">
+            <div class="rc-icon"><i class="fas fa-wifi"></i></div>
+            <h3>WiFi-Based Sensing</h3>
+            <p>Device-free human activity recognition (HAR) using WiFi Channel State Information (CSI), including violence detection and gesture recognition.</p>
+          </div>
+          <div class="research-card reveal">
+            <div class="rc-icon"><i class="fas fa-brain"></i></div>
+            <h3>Deep Learning & Signal Processing</h3>
+            <p>Convolutional neural networks, LSTM architectures, autoencoders, and hybrid deep learning models applied to RF and wireless signal data.</p>
+          </div>
+          <div class="research-card reveal">
+            <div class="rc-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>Network Security & XAI</h3>
+            <p>Explainable AI frameworks for intrusion detection systems, multiclass attack classification in wireless networks.</p>
+          </div>
+          <div class="research-card reveal">
+            <div class="rc-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Smart Grid & Fault Detection</h3>
+            <p>Machine learning-based fault detection and diagnostics in smart power grid systems.</p>
+          </div>
+          <div class="research-card reveal">
+            <div class="rc-icon"><i class="fas fa-satellite"></i></div>
+            <h3>Satellite Communications</h3>
+            <p>Link budget modeling for GEO, MEO, and LEO satellite networks; free-space path loss analysis and system-level simulation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PUBLICATIONS ===== -->
+    <section id="publications" class="section section-alt" aria-labelledby="pub-heading">
+      <div class="container">
+        <div class="section-label reveal">Scholarly Work</div>
+        <h2 id="pub-heading" class="section-title reveal">Publications</h2>
+
+        <h3 class="pub-category reveal">Conference Proceedings</h3>
+        <div class="pub-list">
+
+          <article class="pub-card reveal" aria-label="Publication 1">
+            <div class="pub-year">Dec 2025</div>
+            <div class="pub-body">
+              <p class="pub-title">Deep Learning PAPR Reduction Framework For 5G NR Uplink OFDM</p>
+              <p class="pub-authors"><strong>Francesco De Florence</strong>, A. S. Molla, M. K. Islam and M. H. Kabir</p>
+              <p class="pub-venue"><i class="fas fa-book-open"></i> 2025 IEEE 7th International Conference on Electrical Information and Communication Technology (EICT), Khulna, Bangladesh, pp. 1–6.</p>
+              <a href="https://doi.org/10.1109/EICT68394.2025.11355619" target="_blank" rel="noopener" class="doi-link">DOI: 10.1109/EICT68394.2025.11355619 <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </article>
+
+          <article class="pub-card reveal" aria-label="Publication 2">
+            <div class="pub-year">Oct 2025</div>
+            <div class="pub-body">
+              <p class="pub-title">Explainable AI Framework for Multiclass Attack Classification in Wireless Network Intrusion Detection Systems</p>
+              <p class="pub-authors">A. S. Molla, T. Datta, <strong>Francesco De Florence</strong>, R. Rayhan, M. K. Rahman and M. H. Kabir</p>
+              <p class="pub-venue"><i class="fas fa-book-open"></i> 2025 IEEE 2nd International Conference on Computing, Applications and Systems (COMPAS), Kushtia, Bangladesh, pp. 1–6.</p>
+              <a href="https://doi.org/10.1109/COMPAS67506.2025.11381654" target="_blank" rel="noopener" class="doi-link">DOI: 10.1109/COMPAS67506.2025.11381654 <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </article>
+
+        </div>
+
+        <h3 class="pub-category reveal">Journal Articles <span class="badge-submitted">Submitted</span></h3>
+        <div class="pub-list">
+
+          <article class="pub-card reveal" aria-label="Journal Article 1">
+            <div class="pub-year">Oct 2025</div>
+            <div class="pub-body">
+              <p class="pub-title">A Review on Wi-Fi Signal Based Device Free HAR: Models, Datasets, Applications Domain, Open Challenges and Future Research Directions</p>
+              <p class="pub-authors">Md. M. R. N. Gazi, A. S. Molla, <strong>Francesco De Florence</strong>, M. H. Kabir, A. L. Sarker, and D. S. Han</p>
+              <p class="pub-venue"><i class="fas fa-journal-whills"></i> IEEE Transactions on Human-Machine Systems (Submitted Oct. 15, 2025).</p>
+              <a href="https://doi.org/10.36227/techrxiv.176053250.06345878/v1" target="_blank" rel="noopener" class="doi-link">DOI: 10.36227/techrxiv.176053250.06345878/v1 <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section" aria-labelledby="proj-heading">
+      <div class="container">
+        <div class="section-label reveal">Portfolio</div>
+        <h2 id="proj-heading" class="section-title reveal">Technical Projects</h2>
+        <div class="projects-grid">
+
+          <!-- UPDATE: Replace # with real GitHub links -->
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: ML Fault Detection">
+            <div class="project-icon"><i class="fas fa-bolt"></i></div>
+            <h3>ML-Based Fault Detection in Smart Grid</h3>
+            <p>Machine learning models for identifying and classifying faults in smart power grid systems.</p>
+            <span class="proj-tag">ML</span><span class="proj-tag">Power Systems</span>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: Channel Estimation">
+            <div class="project-icon"><i class="fas fa-broadcast-tower"></i></div>
+            <h3>Deep Learning Channel Estimation for 5G OFDM</h3>
+            <p>Neural network-based channel estimator improving accuracy over classical least-squares methods.</p>
+            <span class="proj-tag">Deep Learning</span><span class="proj-tag">5G</span>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: Adaptive Modulation">
+            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>ML-Based Adaptive Modulation Scheme</h3>
+            <p>Dynamic modulation selection using machine learning to optimize spectral efficiency across channel conditions.</p>
+            <span class="proj-tag">ML</span><span class="proj-tag">Communications</span>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: Massive MIMO">
+            <div class="project-icon"><i class="fas fa-satellite-dish"></i></div>
+            <h3>Massive MIMO Beamforming Simulation (5G)</h3>
+            <p>MATLAB-based simulation of beamforming strategies for massive antenna array deployment in 5G networks.</p>
+            <span class="proj-tag">MATLAB</span><span class="proj-tag">5G</span><span class="proj-tag">MIMO</span>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: RF Fingerprinting">
+            <div class="project-icon"><i class="fas fa-fingerprint"></i></div>
+            <h3>CNN-Based RF Fingerprinting</h3>
+            <p>Convolutional neural network to uniquely identify wireless devices via radiofrequency signal characteristics.</p>
+            <span class="proj-tag">CNN</span><span class="proj-tag">RF</span>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: Spectral Efficiency Analysis">
+            <div class="project-icon"><i class="fas fa-wave-square"></i></div>
+            <h3>Comparative Analysis of Modulation Schemes</h3>
+            <p>Evaluation of spectral efficiency, bandwidth, and BER performance across different modulation techniques.</p>
+            <span class="proj-tag">Analysis</span><span class="proj-tag">MATLAB</span>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: Satellite Link Budget">
+            <div class="project-icon"><i class="fas fa-satellite"></i></div>
+            <h3>Satellite Link Budget Modeling (GEO/MEO/LEO)</h3>
+            <p>MATLAB simulation of satellite link budget parameters across different orbital classifications.</p>
+            <span class="proj-tag">MATLAB</span><span class="proj-tag">Satellite</span>
+          </a>
+
+          <a href="#" target="_blank" rel="noopener" class="project-card reveal" aria-label="Project: Transmission Line Parameters">
+            <div class="project-icon"><i class="fas fa-project-diagram"></i></div>
+            <h3>Overhead Transmission Line Parameter Estimation</h3>
+            <p>MATLAB-based computation of electrical parameters for overhead high-voltage transmission lines.</p>
+            <span class="proj-tag">MATLAB</span><span class="proj-tag">Power Systems</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section section-alt" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-label reveal">Expertise</div>
+        <h2 id="skills-heading" class="section-title reveal">Technical Skills</h2>
+        <div class="skills-container">
+
+          <div class="skill-group reveal">
+            <h3><i class="fas fa-brain"></i> Machine Learning / Deep Learning</h3>
+            <div class="skill-tags">
+              <span>Supervised Learning</span><span>Unsupervised Learning</span>
+              <span>Reinforcement Learning</span><span>ANNs</span>
+              <span>CNNs</span><span>RNNs / LSTMs</span>
+              <span>Autoencoders</span><span>GANs</span>
+              <span>Deep Reinforcement Learning</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3><i class="fab fa-python"></i> Python Ecosystem</h3>
+            <div class="skill-tags">
+              <span>Pandas</span><span>NumPy</span>
+              <span>Matplotlib</span><span>Seaborn</span>
+              <span>Scikit-learn</span><span>SciPy</span>
+              <span>TensorFlow / Keras</span><span>PyTorch</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <div class="skill-bars">
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>Python</span><span>90%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>MATLAB</span><span>85%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>C / C++</span><span>70%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-label"><span>LaTeX</span><span>80%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3><i class="fas fa-tools"></i> Software Tools</h3>
+            <div class="skill-tags">
+              <span>LaTeX</span><span>MATLAB</span><span>MS Office</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS & AWARDS ===== -->
+    <section id="certifications" class="section" aria-labelledby="cert-heading">
+      <div class="container">
+        <div class="section-label reveal">Achievements</div>
+        <h2 id="cert-heading" class="section-title reveal">Certifications &amp; Awards</h2>
+
+        <div class="cert-columns">
+          <div>
+            <h3 class="cert-sub reveal"><i class="fas fa-certificate"></i> Certifications &amp; Training</h3>
+            <div class="cert-list">
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-industry"></i></div>
+                <div>
+                  <strong>Industrial Technology in EE &amp; Instrumentation</strong>
+                  <p>TICI, Polash, Narsingdi, Bangladesh &nbsp;|&nbsp; Feb–Mar 2025 &nbsp;|&nbsp; <span class="grade">Grade: A+</span></p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-pen-nib"></i></div>
+                <div>
+                  <strong>Masterclass on Research Paper Writing</strong>
+                  <p>Centre for Applied Research in Software and IT (CARSIT), UK &nbsp;|&nbsp; Mar 2026</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                <div>
+                  <strong>ML/DL with Python</strong>
+                  <p>Instructed by Dr. Md. Salim Raza, University of Texas at El Paso &nbsp;|&nbsp; Jun 2024–Jan 2025</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-microchip"></i></div>
+                <div>
+                  <strong>Arduino Programming Certificate Course</strong>
+                  <p>Instructor: Mrinmoy Modak, CEO, Think-ROBO &nbsp;|&nbsp; Mar 2020</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-desktop"></i></div>
+                <div>
+                  <strong>Computer Office Application</strong>
+                  <p>UCD, Cox's Bazar, Bangladesh &nbsp;|&nbsp; Apr–Jun 2016 &nbsp;|&nbsp; <span class="grade">Grade: A+</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="cert-sub reveal"><i class="fas fa-trophy"></i> Awards &amp; Competitions</h3>
+            <div class="cert-list">
+              <div class="cert-card reveal">
+                <div class="cert-icon award"><i class="fas fa-medal"></i></div>
+                <div>
+                  <strong>1st Place – National Children's Award (Flute)</strong>
+                  <p>Sub-District, District &amp; Division Levels &nbsp;|&nbsp; 2012</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon award"><i class="fas fa-star"></i></div>
+                <div>
+                  <strong>National Board Scholarship (PSC)</strong>
+                  <p>Primary School Certificate Examination, General Category &nbsp;|&nbsp; 2010</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-atom"></i></div>
+                <div>
+                  <strong>Precise Energy Olympiad 2025</strong>
+                  <p>Selected for Final Round, Physics Category &nbsp;|&nbsp; Oct 2025</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-globe"></i></div>
+                <div>
+                  <strong>Hult Prize Competition Bangladesh</strong>
+                  <p>Regional Round, University Category &nbsp;|&nbsp; Dec 2020</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-flask"></i></div>
+                <div>
+                  <strong>Bangladesh Physics Olympiad</strong>
+                  <p>Regional Round – 8th (2018) and 7th (2017) editions, College Category</p>
+                </div>
+              </div>
+              <div class="cert-card reveal">
+                <div class="cert-icon"><i class="fas fa-square-root-alt"></i></div>
+                <div>
+                  <strong>Bangladesh Mathematical Olympiad</strong>
+                  <p>13th Regional Round, High School Category &nbsp;|&nbsp; 2015</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section section-alt" aria-labelledby="exp-heading">
+      <div class="container">
+        <div class="section-label reveal">Career</div>
+        <h2 id="exp-heading" class="section-title reveal">Experience</h2>
+        <div class="exp-grid">
+
+          <div class="exp-card reveal">
+            <div class="exp-meta">
+              <span class="exp-type research">Research</span>
+              <span class="exp-date">May 2023 – Present</span>
+            </div>
+            <h3>Research Assistant</h3>
+            <p class="exp-org">AI &amp; Machine Learning Lab, Dept. of EEE, Islamic University, Kushtia</p>
+            <p>Conducting applied research in deep learning, 5G wireless systems, and WiFi-based sensing under the supervision of Prof. Md. Humayun Kabir, Ph.D.</p>
+          </div>
+
+          <div class="exp-card reveal">
+            <div class="exp-meta">
+              <span class="exp-type teaching">Teaching</span>
+              <span class="exp-date">Jan 2025 – Present</span>
+            </div>
+            <h3>Assistant Teacher (ICT) – Part-time</h3>
+            <p class="exp-org">Bookman Student Care (BSC), Sheilkupa, Jhenaidha</p>
+            <p>Teaching ICT subjects to secondary and higher-secondary level students.</p>
+          </div>
+
+          <div class="exp-card reveal">
+            <div class="exp-meta">
+              <span class="exp-type teaching">Teaching</span>
+              <span class="exp-date">Jan 2022 – Nov 2023</span>
+            </div>
+            <h3>Assistant Teacher (Physics) – Part-time</h3>
+            <p class="exp-org">Merit Academy, Kushtia</p>
+            <p>Delivered Physics instruction to college-level students, with emphasis on conceptual clarity and problem-solving.</p>
+          </div>
+
+          <div class="exp-card reveal">
+            <div class="exp-meta">
+              <span class="exp-type teaching">Teaching</span>
+              <span class="exp-date">2020 – Oct 2022</span>
+            </div>
+            <h3>Assistant Teacher (Physics) – Part-time</h3>
+            <p class="exp-org">Icon Academic Care, Kushtia</p>
+            <p>Provided physics tutoring to secondary-level students, supporting curriculum-aligned learning outcomes.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-label reveal">Let's Connect</div>
+        <h2 id="contact-heading" class="section-title reveal">Contact &amp; Profiles</h2>
+        <p class="contact-intro reveal">Open to research collaborations, academic discussions, scholarship opportunities, and professional inquiries.</p>
+        <div class="contact-grid">
+
+          <a href="mailto:frances.eee.iu@gmail.com" class="contact-card reveal" aria-label="Email">
+            <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+            <h3>Email</h3>
+            <p>frances.eee.iu@gmail.com</p>
+          </a>
+
+          <a href="tel:+8801881686187" class="contact-card reveal" aria-label="Phone">
+            <div class="cc-icon"><i class="fas fa-phone-alt"></i></div>
+            <h3>Phone</h3>
+            <p>(+880) 1881-686187</p>
+          </a>
+
+          <!-- UPDATE: Add actual Google Scholar URL -->
+          <a href="https://scholar.google.com" target="_blank" rel="noopener" class="contact-card reveal" aria-label="Google Scholar">
+            <div class="cc-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Google Scholar</h3>
+            <p>View Publications</p>
+          </a>
+
+          <!-- UPDATE: Add actual ResearchGate URL -->
+          <a href="https://researchgate.net" target="_blank" rel="noopener" class="contact-card reveal" aria-label="ResearchGate">
+            <div class="cc-icon"><i class="fab fa-researchgate"></i></div>
+            <h3>ResearchGate</h3>
+            <p>Research Profile</p>
+          </a>
+
+          <!-- UPDATE: Add actual ORCID URL -->
+          <a href="https://orcid.org" target="_blank" rel="noopener" class="contact-card reveal" aria-label="ORCID">
+            <div class="cc-icon"><i class="fab fa-orcid"></i></div>
+            <h3>ORCID</h3>
+            <p>Research Identity</p>
+          </a>
+
+          <!-- UPDATE: Add actual GitHub URL -->
+          <a href="https://github.com" target="_blank" rel="noopener" class="contact-card reveal" aria-label="GitHub">
+            <div class="cc-icon"><i class="fab fa-github"></i></div>
+            <h3>GitHub</h3>
+            <p>Code Repository</p>
+          </a>
+
+          <!-- UPDATE: Add actual LinkedIn URL -->
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-card reveal" aria-label="LinkedIn">
+            <div class="cc-icon"><i class="fab fa-linkedin-in"></i></div>
+            <h3>LinkedIn</h3>
+            <p>Professional Network</p>
+          </a>
+
+        </div>
+
+        <!-- Academic References -->
+        <div class="references reveal">
+          <h3 class="ref-title">Academic References</h3>
+          <div class="ref-grid">
+            <div class="ref-card">
+              <strong>Prof. Md. Humayun Kabir, Ph.D.</strong>
+              <p>Professor, Dept. of EEE, Islamic University</p>
+              <a href="mailto:humayun@eee.iu.ac.bd"><i class="fas fa-envelope"></i> humayun@eee.iu.ac.bd</a>
+              <p><i class="fas fa-phone-alt"></i> (+880) 1709-056784</p>
+            </div>
+            <div class="ref-card">
+              <strong>Prof. Md. Jalal Uddin, Ph.D.</strong>
+              <p>Professor, Dept. of EEE, Islamic University</p>
+              <a href="mailto:mju.aece@gmail.com"><i class="fas fa-envelope"></i> mju.aece@gmail.com</a>
+              <p><i class="fas fa-phone-alt"></i> (+880) 1799-332499</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Francesco De Florence. All rights reserved.</p>
+      <p class="footer-sub">EEE Department · Islamic University, Kushtia, Bangladesh</p>
+      <div class="footer-social" aria-label="Footer social links">
+        <a href="https://scholar.google.com" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:frances.eee.iu@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top button -->
+  <button id="scrollTop" aria-label="Scroll to top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
