@@ -1,36 +1,60 @@
-# Francesco De Florence — Personal Website
+# Francesco De Florence — Academic Portfolio Website
 
-Personal academic portfolio website for **Francesco De Florence**, MSc (Engg.) Researcher in AI-Driven Wireless Communication Systems at Islamic University, Bangladesh.
+A clean, professional academic portfolio website built with pure HTML and CSS. No frameworks, no dependencies — just a single, self-contained HTML file.
 
-## 🚀 Live Site
+## 🌐 Live Site
 
-> Hosted via GitHub Pages: `https://<your-username>.github.io`
+[https://francesco-de-florence.github.io/francesco.github.io/](https://francesco-de-florence.github.io/francesco.github.io/)
 
-## 📁 Files
+## 📁 Project Structure
 
-| File | Description |
-|------|-------------|
-| `index.html` | Main website (self-contained, no dependencies) |
-| `README.md` | This file |
+portfolio/
+├── index.html        # Main portfolio file (self-contained)
+└── README.md         # This file
 
-## 🛠 How to Deploy on GitHub Pages
 
-1. Create a new GitHub repository named `<your-username>.github.io`
-2. Upload `index.html` and `README.md` to the root of the repo
-3. Go to **Settings → Pages**
-4. Under **Source**, select `main` branch and `/ (root)` folder
-5. Click **Save** — your site will be live in ~1 minute
+## ✨ Features
 
-## ✏️ Customization
+- **Single-file design** — profile photo embedded as base64, no external assets needed
+- **Fully responsive** — works on mobile, tablet, and desktop
+- **Smooth navigation** — sticky navbar with anchor links
+- **All sections included:**
+  - About / Hero
+  - Research Interests
+  - Education (BSc & MSc)
+  - Publications (Journal & Conference)
+  - Research Experience
+  - Technical Skills
+  - Projects (with GitHub links)
+  - Awards & Honors
+  - Academic Competitions
+  - Certifications & Training
+  - Teaching Experience
+  - Leadership & Volunteering
+  - Academic References
+  - Contact
 
-Open `index.html` in any text editor to update:
+## 🛠️ Built With
 
-- **Social links** — Search for `href="https://scholar.google.com"` etc. and replace with your actual profile URLs
-- **GitHub links** — Replace `https://github.com/FrancescoDeFlorence` with your real GitHub username
-- **Contact info** — Update email, phone, location as needed
-- **Publications** — Add new papers in the `#publications` section using the existing card structure
+- HTML5
+- CSS3 (CSS Variables, Grid, Flexbox)
+- [Font Awesome 6](https://fontawesome.com/) — icons
+- [Google Fonts](https://fonts.google.com/) — EB Garamond + DM Sans
 
-## 📧 Contact
+## 🚀 Deployment (GitHub Pages)
 
-**Email:** frances.eee.iu@gmail.com  
-**Institution:** Islamic University, Kushtia-7003, Bangladesh
+1. Fork or clone this repository
+2. Go to **Settings → Pages**
+3. Set source to `main` branch, `/ (root)`
+4. Your site will be live at `https://<username>.github.io/<repo-name>/`
+
+## 📬 Contact
+
+**Francesco De Florence**
+- 📧 [frances.eee.iu@gmail.com](mailto:frances.eee.iu@gmail.com)
+- 🏛️ Dept. of EEE, Islamic University, Kushtia-7003, Bangladesh
+- 🔗 [Google Scholar](https://scholar.google.com/citations?user=GV3OmqoAAAAJ&hl=en) · [GitHub](https://github.com/Francesco-De-Florence) · [LinkedIn](https://www.linkedin.com/in/francesco-de-florence) · [ORCID](https://orcid.org/0009-0002-3123-4427)
+
+---
+
+© 2026 Francesco De Florence
