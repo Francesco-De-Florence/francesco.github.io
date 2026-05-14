@@ -4,7 +4,7 @@ A clean, professional academic portfolio website built with pure HTML and CSS. N
 
 ## 🌐 Live Site
 
-[https://francesco-de-florence.github.io/francesco.github.io/](https://francesco-de-florence.github.io/francesco.github.io/)
+[https://francesco-de-florence.github.io/index.html/](https://francesco-de-florence.github.io/index.html/)
 
 ## 📁 Project Structure
 
